@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f39c12"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:hint="Insert some data"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+
+        android:text="Save"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="372dp" />
+    <Button
+        android:id="@+id/activityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:text="Acvitity"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aici iti poti salva textul, nu rata ocazia"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"/>
+
+</RelativeLayout>
